@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ꜱᴀɴɪᴀ ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇʟᴇɢʀᴀᴍ [❖](https://graph.org/file/9a358a29b8eb9ceac82d6.jpg)
+✪ Saya Adalah Xrynze Bot Manajemen Telegram [❖]
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
