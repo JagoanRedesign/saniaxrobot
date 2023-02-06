@@ -30,9 +30,9 @@ MEMEK = "https://graph.org/file/9a358a29b8eb9ceac82d6.jpg"
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hey I'm Emiko Robot** 
+        caption=f"""✨ **Hey I'm Xrynze Robot** 
 
-**Owner repo : [𝘼𝙇𝙑𝙍𝙉 🇮🇩](https://t.me/pvgzt)**
+**Owner repo : [Mazekubot](https://t.me/mazekubot)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -46,7 +46,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Repo", url="https://github.com/AlvrnEx/saniaxrobot"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/saniasupportgroup")
+                        "Support", url="https://t.me/dutabotid")
                 ]
             ]
         )
