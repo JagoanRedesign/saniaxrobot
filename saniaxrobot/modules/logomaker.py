@@ -63,7 +63,7 @@ async def logo_gen(event):
     else:
         pics = []
         async for i in ubot2.iter_messages(
-            "@KenLogopack", filter=InputMessagesFilterPhotos
+            "@XenLogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -73,7 +73,7 @@ async def logo_gen(event):
     if not bg_:
         pics = []
         async for i in ubot2.iter_messages(
-            "@KenLogopack", filter=InputMessagesFilterPhotos
+            "@XenLogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -113,7 +113,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Sania Robot](https://t.me/saniaxrobot)",
+            caption="Logo by [Xrynze Robot](https://t.me/xrynze4bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -156,7 +156,7 @@ async def logo_(event):
     if not bg_:
         pics = []
         async for i in ubot2.iter_messages(
-            "@kenlogopack", filter=InputMessagesFilterPhotos
+            "@Xenlogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Sania Robot](https://t.me/saniaxrobot)",
+            caption="Logo by [Xrynze Robot](https://t.me/xrynze4bot)",
             force_document=False,
         )
         os.remove(flnme)
