@@ -13,12 +13,12 @@ PHOTO = "https://graph.org/file/9a358a29b8eb9ceac82d6.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Sania Robot.** \n\n"
+  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Xrynze Robot.** \n\n"
   TEXT += "⚪ **I'm Working Properly** \n\n"
-  TEXT += f"⚪ **My Master : [𝘼𝙇𝙑𝙍𝙉 🇮🇩](https://t.me/pvgzt)** \n\n"
+  TEXT += f"⚪ **My Master : [Mazekubot](https://t.me/mazekubot)** \n\n"
   TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
   TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
   TEXT += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("Help", "https://t.me/saniaxrobot?start=help"), Button.url("Support", "https://t.me/saniasupportgroup")]]
+  BUTTON = [[Button.url("Help", "https://t.me/xrynze4bot?start=help"), Button.url("Support", "https://t.me/dutabotid")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
