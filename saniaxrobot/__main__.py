@@ -113,7 +113,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @pvgzt \
+ You can support the project by contacting @Mazekubot \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -383,7 +383,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="sania_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://graph.org/file/64a90ed217dab14fe280e.jpg"),
+                    InlineKeyboardButton(text="Source Code", url="https://t.me/arena4me"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back"),
@@ -422,14 +422,14 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "sania_support":
         query.message.edit_text(
-            text="*๏ Sania support chats*"
+            text="*๏ Xrynze support chats*"
             f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/saniasupportgroup"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/saniaupdates"),
+                    InlineKeyboardButton(text="Support", url="t.me/dutabotid"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/arena4me"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="sania_"),
@@ -737,7 +737,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1865232417:
+        if OWNER_ID != 5166575484:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
